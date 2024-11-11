@@ -4,5 +4,7 @@
 3.将解析后的天气数据以列表的形式显示，列表中包含天气图标和温度信息，用户可以点击查看详细的天气情况。
 4.在App中嵌入音乐播放器功能，用户可以选择播放存储卡或网上的歌曲，包括播放、暂停、快进、快退等操作。
 5.添加日程表插件功能，用户可以添加、删除、修改日程，并按日、星期、月查看日程安排。
+
 ![image](https://github.com/user-attachments/assets/7a180f74-a8d6-496c-875b-9a5632a5030a)
+
 ![image](https://github.com/user-attachments/assets/94fb10e6-4c73-49dc-ae1a-87398225f547)
