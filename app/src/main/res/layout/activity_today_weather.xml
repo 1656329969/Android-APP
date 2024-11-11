@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodayWeatherActivity">
+
+    <!-- 黑色边框 -->
+    <LinearLayout
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- 返回按钮 -->
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@null"
+            android:contentDescription="Back"
+            android:src="@android:drawable/ic_menu_revert" />
+
+        <!-- 标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="今日逐时天气信息"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- 今日逐时温度折线图 -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChartTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/border"
+        android:layout_marginTop="16dp" />
+
+    <!-- 每个整点天气信息 -->
+    <TextView
+        android:id="@+id/tvHourlyWeatherInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineChartTemperature"
+        android:layout_marginTop="16dp"
+        android:text="每个整点天气信息"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHourlyWeatherInfotwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineChartTemperature"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="16dp"
+        android:text="每个整点天气信息"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

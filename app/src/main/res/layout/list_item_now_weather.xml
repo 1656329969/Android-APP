@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivWeatherPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:contentDescription=" "/>
+
+    <TextView
+        android:id="@+id/tvWindDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind Direction"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvAqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AQI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvWindPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind Power"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvTemperatureTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature Time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvRain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rain"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvWeatherCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Code"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvSd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+</LinearLayout>
